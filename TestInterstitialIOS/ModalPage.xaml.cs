@@ -7,13 +7,15 @@ public partial class ModalPage : ContentPage
         InitializeComponent();
     }
 
+    private void ShowInterstitialAd(object sender, EventArgs e)
+    {
+        MainPage.LoadAndShowInterstitial();
+    }
+
     private async void CloseModal(object sender, EventArgs e)
     {
         await Navigation.PopModalAsync();
     }
 
-    private void ShowInterstitialAd(object sender, EventArgs e)
-    {
-        MainPage.LoadAndShowInterstitial();
-    }
+
 }
