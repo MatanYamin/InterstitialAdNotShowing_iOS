@@ -1,0 +1,22 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             BackgroundColor="Grey"
+             x:Class="TestInterstitialIOS.MainPage">
+
+    <ScrollView>
+        <VerticalStackLayout
+            Padding="30,0"
+            Spacing="25">
+            <Label
+                Text="Test for interstitial ad not showing on real iOS phones while modal is open."
+                Style="{StaticResource Headline}"
+                SemanticProperties.HeadingLevel="Level1" />
+                <Button Text="Show Interstitial" Clicked="ShowInterstitialAd"/>
+                <Button Text="Open Modal" Clicked="OpenModalClicked"/>
+        
+        </VerticalStackLayout>
+
+    </ScrollView>
+
+</ContentPage>
