@@ -11,7 +11,7 @@
                 Text="Test for interstitial ad not showing on real iOS phones while modal is open."
                 Style="{StaticResource Headline}"
                 SemanticProperties.HeadingLevel="Level1" />
-                <Button Text="Show Interstitial" Clicked="ShowInterstitialAd"/>
+                <Button Text="Show Interstitial On MainPage" Clicked="ShowInterstitialAd"/>
                 <Button Text="Open Modal" Clicked="OpenModalClicked"/>
         
         </VerticalStackLayout>
